@@ -12,7 +12,10 @@ class ViewController: UIViewController {
     
     
     @IBAction func touchDigit(_ sender: UIButton) {
-        //print("digit was touched")
+        
+        let digit = sender.currentTitle!
+        print("\(digit) was touched")
+        
     }
     
     
