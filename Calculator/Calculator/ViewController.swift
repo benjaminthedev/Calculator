@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var display: UILabel?
-    
+    //Fixes the 0 when typing
     var isUserTyping = false
     
     
@@ -28,11 +28,15 @@ class ViewController: UIViewController {
             isUserTyping = true
         }
         
-            
+        
     }
     
     
     @IBAction func performOpp(_ sender: UIButton) {
+        //Fixes the 0 when typing
+        //isUserTyping = false
+        
+        
     }
     
 }
