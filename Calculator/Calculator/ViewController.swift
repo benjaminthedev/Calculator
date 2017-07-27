@@ -25,7 +25,7 @@ class ViewController: UIViewController {
             display!.text = textCurrentlyInDisplay + digit
         } else {
             display!.text = digit
-            isUserTyping = true??
+            isUserTyping = true
         }
         
         
