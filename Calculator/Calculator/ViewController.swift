@@ -31,13 +31,7 @@ class ViewController: UIViewController {
         
     }
     
-    
-    @IBAction func performOpp(_ sender: UIButton) {
-        //Fixes the 0 when typing
-        //isUserTyping = false
-        
-        
-    }
+
     
 }
 
